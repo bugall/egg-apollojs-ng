@@ -1,5 +1,5 @@
 {
-  "name": "egg-apollojs",
+  "name": "egg-apollojs-ng",
   "version": "0.0.6",
   "description": "apollo plugin for egg.js & support hot patch",
   "eggPlugin": {
@@ -49,12 +49,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-apollojs.git"
+    "url": "git+ssh://git@github.com/bugall/egg-apollojs-ng.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "github.com/bugall/egg-apollojs-ng/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-apollojs#readme",
-  "author": "flandreYi",
+  "author": "bugall",
   "license": "MIT"
 }
