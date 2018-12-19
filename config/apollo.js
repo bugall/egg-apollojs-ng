@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  configServerUrl: 'http://127.0.0.1:8084',
-  appId: 'node-test-1', // 配置中心命名和项目名称保持一致,
+  configServerUrl: 'http://dev-config.videojj.com',
+  appId: 'huobao-app-backend', // 配置中心命名和项目名称保持一致,
   clusterName: 'default',
-  namespaceName: [ 'application', 'python.PostgreSQL', 'python.redis', 'python.ops' ], // 两个namespace相同配置，application配置会覆盖'python.mysql'
+  namespaceName: [ 'huobao-app-backend.json' ], // 两个namespace相同配置，application配置会覆盖'python.mysql'
 };

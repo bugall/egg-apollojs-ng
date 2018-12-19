@@ -20,6 +20,7 @@ class Update extends Subscription {
     if (result && result.status === 304) {
       this.app.coreLogger.info('apollo 没有更新');
     } else {
+      result.content = result.content.replace(/\n|\t/g, '');
       apollo.createEnvFile(result);
       apollo.setEnv();
       const appInfo = this.app.config.appInfo;
